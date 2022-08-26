@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2&display=swap");
+
+body {
+  font-family: "Baloo 2", cursive;
+  background-color: #aedaed;
+  height: 100vh;
+}
+
+button:focus {
+  outline: 20px;
+  outline-color: red !important;
+  outline-width: 0px;
+}
+
+.btn:focus {
+  box-shadow: none;
+}
+
+div {
+  position: relative;
+}
+
+#tooltrip1,
+#tooltrip2 {
+  position: relative;
+}
+
+#tooltrip1 p,
+#tooltrip2 p {
+  position: absolute;
+  top: 2px;
+  right: 150px;
+  background-color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
