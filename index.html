@@ -1,39 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>LINK Generator</title>
+  </head>
 
-<head>
-	<meta charset="UTF-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
-	<link rel="stylesheet" href="./assets/css/style.css">
-	<title>LINK Generator</title>
-</head>
-
-<body class="container my-5 text-center">
-	<header>
-		<h1>Google drive image link to live link</h1> </header>
-	<main class="my-5 text-start w-75 m-auto">
-		<div>
-			<h3>Paste link here:</h3>
-			<input type="text" style="width: 75%" id="link" class="form-control d-inline" />
-			<button id="btn" class="btn btn-primary" style="width: 130px"> Generate Link </button>
-		</div>
-		<div class="my-3">
-			<h3>View Link:</h3>
-			<input type="text" id="viewLinkInput" style="width: 75%" class="form-control d-inline" />
-			<button id="copyView" class="btn btn-primary" style="width: 130px; margin-bottom: 1px"> Copy LINK </button>
-			<div id="tooltrip1"></div>
-		</div>
-		<div>
-			<h3>Download Link:</h3>
-			<input type="text" id="downloadLinkInput" style="width: 75%" class="form-control d-inline" />
-			<button id="copyDownload" class="btn btn-primary" style="width: 130px; margin-bottom: 1px"> Copy LINK </button>
-			<div id="tooltrip2"></div>
-		</div>
-		<script src="./assets/js/app.js"></script>
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
-	</main>
-</body>
-
+  <body class="container py-5 text-center">
+    <header>
+      <h1>Google drive image link to live link</h1>
+    </header>
+    <main class="my-5 text-start w-75 m-auto">
+      <div>
+        <h3>Paste link here:</h3>
+        <input
+          type="text"
+          style="width: 75%"
+          id="link"
+          class="form-control d-inline"
+        />
+        <button id="btn" class="btn btn-primary" style="width: 130px">
+          Generate Link
+        </button>
+      </div>
+      <div class="my-3">
+        <h3>View Link:</h3>
+        <input
+          type="text"
+          id="viewLinkInput"
+          style="width: 75%"
+          class="form-control d-inline"
+        />
+        <button
+          id="copyView"
+          class="btn btn-primary"
+          style="width: 130px; margin-bottom: 1px"
+        >
+          Copy LINK
+        </button>
+        <div id="tooltrip1"></div>
+      </div>
+      <div>
+        <h3>Download Link:</h3>
+        <input
+          type="text"
+          id="downloadLinkInput"
+          style="width: 75%"
+          class="form-control d-inline"
+        />
+        <button
+          id="copyDownload"
+          class="btn btn-primary"
+          style="width: 130px; margin-bottom: 1px"
+        >
+          Copy LINK
+        </button>
+        <div id="tooltrip2"></div>
+      </div>
+      <script src="./assets/js/app.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    </main>
+  </body>
 </html>
